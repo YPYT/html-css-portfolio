@@ -22,3 +22,7 @@ header h4,
 .lightText {
     color: var(--color-highlight);
 }
+
+header a {
+    text-decoration: none;
+}
