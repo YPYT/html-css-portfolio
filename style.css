@@ -26,3 +26,11 @@ header h4,
 header a {
     text-decoration: none;
 }
+
+header h1 {
+    font-weight: 600;
+}
+
+header h4 {
+    font-weight: 400;
+}
