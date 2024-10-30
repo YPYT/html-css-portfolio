@@ -17,6 +17,12 @@ body {
     padding: 1rem;
 }
 
+.underlay {
+    position: fixed;
+    background-color: green;
+    inset: 0;
+}
+
 header {
     display: flex;
     flex-direction: column;
