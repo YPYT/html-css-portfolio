@@ -19,8 +19,16 @@ body {
 
 .underlay {
     position: fixed;
-    background-color: green;
+    background-color: #172554;
     inset: 0;
+    opacity: 0.35;
+}
+
+header,
+main,
+footer {
+    position: relative;
+    z-index: 10;
 }
 
 header {
