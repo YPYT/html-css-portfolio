@@ -26,6 +26,17 @@ p {
     line-height: 1.5rem;
 }
 
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+    background-color: var(--color-accent);
+    color: #0f172a;
+}
+
 .underlay {
     position: fixed;
     background-color: #172554;
